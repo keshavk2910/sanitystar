@@ -11,7 +11,9 @@
   text-align: center;
   color: #2c3e50;
 }
-
+body {
+  margin: 0;
+}
 #nav {
   padding: 30px;
 
@@ -23,6 +25,10 @@
       color: #42b983;
     }
   }
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
 }
 </style>
 <script>
