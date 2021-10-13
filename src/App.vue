@@ -1,6 +1,7 @@
 <template>
   <Header />
   <router-view />
+  <Footer />
 </template>
 
 <style lang="scss">
@@ -30,13 +31,18 @@ img {
   max-width: 100%;
   max-height: 100%;
 }
+button {
+  cursor: pointer;
+}
 </style>
 <script>
 // @ is an alias to /src
-import Header from './components/Header.vue';
+import Header from './components/Header.vue'
+import Footer from './components/footer.vue'
 export default {
   components: {
     Header,
-  },
-};
+    Footer
+  }
+}
 </script>

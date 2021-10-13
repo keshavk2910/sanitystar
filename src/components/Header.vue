@@ -2,7 +2,9 @@
   <header>
     <div class="headMain">
       <div class="logoSide">
-        <img alt="Vue logo" src="../assets/logo.png" />
+        <router-link to="/"
+          ><img alt="Vue logo" src="../assets/logo.png"
+        /></router-link>
       </div>
       <div class="menuSide">
         <div class="navTop">
@@ -32,8 +34,8 @@
 
 <script>
 export default {
-  name: 'Header',
-};
+  name: 'Header'
+}
 </script>
 
 <style scoped lang="scss">
