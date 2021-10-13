@@ -1,6 +1,7 @@
 <template>
   <Header />
   <router-view />
+  <Footer />
 </template>
 
 <style lang="scss">
@@ -13,6 +14,8 @@
 }
 body {
   margin: 0;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 #nav {
   padding: 30px;
@@ -33,10 +36,12 @@ img {
 </style>
 <script>
 // @ is an alias to /src
-import Header from './components/Header.vue';
+import Header from "./components/Header.vue";
+import Footer from "./components/footer.vue";
 export default {
   components: {
     Header,
+    Footer,
   },
 };
 </script>
